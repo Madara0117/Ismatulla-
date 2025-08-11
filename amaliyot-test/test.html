@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Zoopark</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+
+    <h1 class="title">Xush kelibsiz, <span class="highlight">Virtual Zooparkga!</span></h1>
+    <p>Bu yerda siz turli <b class="hayvonlarni"><i>hayvonlarni</i></b> haqida qiziqarli ma'lumotlar topishingiz mumkin.</p>
+
+    <h2>Bizning hayvonlar</h2>
+    <ul>
+        <li><b>Arslonlar</b> - o'rmon qirollari</li>
+        <li><b>Fillar</b> - yer yuzidagi eng katta quruqlik hayvonlari</li>
+    </ul>
+
+    <h3 class="section">Hayvonlar haqida qiziqarli faktlar</h3>
+    <div class="images">
+        <img src="images/arslonlar.jpg" alt="Arslonlar">
+        <img src="images/yotgan-arslon.jpg" alt="Yotgan arslon">
+    </div>
+
+    <h3 class="section">Hayvonlarni ko'rish</h3>
+    <div class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/M-WADbIX42s?si=bzSCgxyoRNNWRUI7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <p><b>O'z fikringizni yozib qoldiring</b></p>
+    <textarea rows="3" cols="50"></textarea>
+
+    <p><b>Sevimli hayvoningiz qaysi</b></p>
+    <label><input type="radio" name="animal" value="arslon"> Arslon</label>
+    <label><input type="radio" name="animal" value="fil"> Fil</label>
+    <br><br>
+    <button type="submit">Jo'natish</button>
+
+    <h3 class="section-title">Hayvonlar haqida to'liq ma'lumotlar jadvali</h3>
+    <table>
+        <tr>
+            <th class="green">Hayvon</th>
+            <th class="blue">Qiziqarli fakt</th>
+        </tr>
+        <tr>
+            <td class="red">Arslon</td>
+            <td class="black">Arslonlar kunning 20 soatini uyqu bilan o'tkazishadi</td>
+        </tr>
+        <tr>
+            <td class="red">Fil</td>
+            <td class="black">Fillar suvni o'zlarini burni bilan ichishadi</td>
+        </tr>
+    </table>
+</body>
+</html>

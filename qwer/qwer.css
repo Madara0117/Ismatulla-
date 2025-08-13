@@ -1,6 +1,27 @@
-h1{
-    border: 2px solid green;
-    padding: 100px;
-    margin: 100px 50px;
-    
+header {
+    display: flex;
+    justify-content: center;
+}
+ul {
+    display: flex;
+    gap: 20px;
+}
+div {
+    width: 200px;
+    height: 200px;
+    color: white;
+    background-color: red;
+    text-align: center;
+}
+.sec {
+    display: flex;
+    justify-content: space-around
+}
+.Section-1 {
+    display: flex;
+    justify-content: center;
+}
+footer {
+    display: flex;
+    justify-content: center;
 }
